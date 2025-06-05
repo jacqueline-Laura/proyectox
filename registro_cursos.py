@@ -4,7 +4,7 @@ import pandas as pd  # Pandas para manejar datos en forma de tablas (DataFrames)
 
 
 # Cargar el logo
-logo_path = r"D:\JOEL\Downloads\APP\logo.png"
+logo_path = "assets/logo.png"
 
 
 # Título de la aplicación con el logo y texto
@@ -19,7 +19,7 @@ with col2:
 
 #Cargar los cursos desde el archivo Excel
 
-ruta_excel_cursos_admi= r"D:\JOEL\Downloads\APP\cursos_admi.xlsx"
+ruta_excel_cursos_admi = "assets/cursos_admi.xlsx"
 
 try:
     df_cursos_admi = pd.read_excel(ruta_excel_cursos_admi)
